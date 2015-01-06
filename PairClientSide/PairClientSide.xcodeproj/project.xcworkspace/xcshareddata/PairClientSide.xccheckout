@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC11688A-9A07-4B18-B9A3-5A15091D6A98</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PairClientSide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04D21C46631D4CF9C55AEE6B18771EDAF43ED07A</key>
+		<string>https://github.com/williamhuangh/Pair.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PairClientSide/PairClientSide.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04D21C46631D4CF9C55AEE6B18771EDAF43ED07A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/williamhuangh/Pair.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>04D21C46631D4CF9C55AEE6B18771EDAF43ED07A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04D21C46631D4CF9C55AEE6B18771EDAF43ED07A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pair</string>
+		</dict>
+	</array>
+</dict>
+</plist>

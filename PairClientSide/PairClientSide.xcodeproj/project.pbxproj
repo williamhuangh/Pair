@@ -13,6 +13,7 @@
 		3D212AB21A5B9E95003AC287 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D212AB11A5B9E95003AC287 /* Images.xcassets */; };
 		3D212AB51A5B9E95003AC287 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D212AB31A5B9E95003AC287 /* LaunchScreen.xib */; };
 		3D212AC11A5B9E95003AC287 /* PairClientSideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D212AC01A5B9E95003AC287 /* PairClientSideTests.swift */; };
+		3D212ACC1A5B9FB9003AC287 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D212ACB1A5B9FB9003AC287 /* MessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3D212ABA1A5B9E95003AC287 /* PairClientSideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairClientSideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D212ABF1A5B9E95003AC287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D212AC01A5B9E95003AC287 /* PairClientSideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairClientSideTests.swift; sourceTree = "<group>"; };
+		3D212ACB1A5B9FB9003AC287 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,7 @@
 		3D212AA71A5B9E95003AC287 /* PairClientSide */ = {
 			isa = PBXGroup;
 			children = (
-				3D212AAA1A5B9E95003AC287 /* AppDelegate.swift */,
-				3D212AAC1A5B9E95003AC287 /* ViewController.swift */,
-				3D212AAE1A5B9E95003AC287 /* Main.storyboard */,
-				3D212AB11A5B9E95003AC287 /* Images.xcassets */,
-				3D212AB31A5B9E95003AC287 /* LaunchScreen.xib */,
+				3D212ACA1A5B9F82003AC287 /* ViewControllers */,
 				3D212AA81A5B9E95003AC287 /* Supporting Files */,
 			);
 			path = PairClientSide;
@@ -90,6 +88,10 @@
 		3D212AA81A5B9E95003AC287 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D212AB11A5B9E95003AC287 /* Images.xcassets */,
+				3D212AB31A5B9E95003AC287 /* LaunchScreen.xib */,
+				3D212AAE1A5B9E95003AC287 /* Main.storyboard */,
+				3D212AAA1A5B9E95003AC287 /* AppDelegate.swift */,
 				3D212AA91A5B9E95003AC287 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +112,15 @@
 				3D212ABF1A5B9E95003AC287 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D212ACA1A5B9F82003AC287 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D212AAC1A5B9E95003AC287 /* ViewController.swift */,
+				3D212ACB1A5B9FB9003AC287 /* MessagesViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D212ACC1A5B9FB9003AC287 /* MessagesViewController.swift in Sources */,
 				3D212AAD1A5B9E95003AC287 /* ViewController.swift in Sources */,
 				3D212AAB1A5B9E95003AC287 /* AppDelegate.swift in Sources */,
 			);
