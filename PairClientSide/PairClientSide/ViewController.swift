@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         enterTitle.font = UIFont(name: "Helvetica Light", size: 15.0)
         self.view.addSubview(enterTitle)
         
-        phoneNumberTextField = UITextField(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
+        phoneNumberTextField = UITextField(frame: CGRect(x: 0, y: 0, width: 120, height: 40))
         phoneNumberTextField.textAlignment = NSTextAlignment.Center
         phoneNumberTextField.center = CGPointMake(enterTitle.center.x, enterTitle.center.y + enterTitle.bounds.size.height)
         phoneNumberTextField.layer.borderWidth = 2.0
@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         submitButton.setTitle("Submit", forState: UIControlState.Normal)
         submitButton.setTitleColor(UIColor.blueColor(), forState: UIControlState.Normal)
         submitButton.center = CGPointMake(phoneNumberTextField.center.x, phoneNumberTextField.center.y + phoneNumberTextField.bounds.size.height / 2.0 + submitButton.bounds.size.height / 2.0 + 5)
+        submitButton.addTarget(self, action: "submitTouched:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(submitButton)
     }
 
@@ -53,6 +54,10 @@ class ViewController: UIViewController {
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         self.view.endEditing(true)
+    }
+    
+    func submitTouched(sender: UIButton!){
+        println(phoneNumberTextField.text)
     }
 
 }
